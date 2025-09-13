@@ -17,9 +17,52 @@ int main(){
     float PIB2;
     int quantidade2;
 
-    //AGORA COMEÇA O DÓIGO
+    //AGORA COMEÇA O CÓDIGO
+    printf("--Escolha as informações da CARTA 1--\n");
+    printf("\nDigite uma letra de 'A' a 'H' para representar um Estado: ");
+    scanf(" %c", &estado);
+
+     printf("Digite um código para representar o Estado (Ex:A01): ");
+    scanf(" %s", codigo);
+
+    printf("Digite um nome para a cidade: ");
+    scanf(" %s", cidade);
+
+    printf("Digite um valor para a população da cidade: ");
+    scanf(" %d", &populacao);
+
+    printf("Informe um valor da área dessa cidade em Km²: ");
+    scanf(" %f", &area);
+
+    printf("Informe o produto interno bruto: ");
+    scanf(" %f", &PIB);
+
+    printf("Diga a quantidade de pontos turísticos: ");
+    scanf(" %d", &quantidade); 
     
-    printf("Digite uma letra para representar um Estado: ");
+    //AGORA RETORNA A CARTA 1
+
+    printf("\nCARTA 1:\n");
+    
+    printf("Estado: %c\n", estado);
+
+    printf("Código: %s\n", codigo);
+
+    printf("Nome da Cidade: %s\n", cidade);
+
+    printf("População: %d pessoas\n", populacao);
+
+    printf("Área: %.2f km²\n", area);
+
+    printf("PIB: %.2f \n", PIB);
+
+    printf("Pontos turísticos: %d pontos turísticos\n", quantidade);
+
+
+    //AGORA COMEÇA O CÓDIGO DA 2 CARTA
+    
+    printf("\n--Escolha as informações da CARTA 2--\n");
+    printf("\nDigite uma letra de 'A' a 'H' para representar um Estado: ");
     scanf(" %c", &estado2);
 
      printf("Digite um código para representar o Estado (Ex:A01): ");
@@ -40,23 +83,23 @@ int main(){
     printf("Diga a quantidade de pontos turísticos: ");
     scanf(" %d", &quantidade2); 
     
-    //AGORA RETORNA A CARTA 
+    //AGORA RETORNA A CARTA 2
 
-    printf("CARTA 1:\n");
+    printf("\nCARTA 2:\n");
     
     printf("Estado: %c\n", estado2);
 
-    printf("codigo: %s\n", codigo2);
+    printf("Código: %s\n", codigo2);
 
     printf("Nome da Cidade: %s\n", cidade2);
 
-    printf("População: %d\n pessoas", populacao2);
+    printf("População: %d pessoas\n", populacao2);
 
-    printf("Área: %.2f\n km²", area2);
+    printf("Área: %.2f km²\n", area2);
 
-    printf("PIB: %.2f\n bilhões ", PIB2);
+    printf("PIB: %.2f \n", PIB2);
 
-    printf("pontos turísticos: %d\n pontos turísticos", quantidade2);
+    printf("Pontos turísticos: %d pontos turísticos\n", quantidade2);
 
     return 0;
 

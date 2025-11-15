@@ -22,7 +22,7 @@ int main(){
     printf("\nDigite uma letra de 'A' a 'H' para representar um Estado: ");
     scanf(" %c", &estado);
 
-     printf("Digite um código para representar o Estado (Ex:A01): ");
+    printf("Digite um código para representar o Estado (Ex:A01): ");
     scanf(" %s", codigo);
 
     printf("Digite um nome para a cidade: ");
